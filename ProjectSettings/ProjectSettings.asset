@@ -137,7 +137,12 @@ PlayerSettings:
   vulkanEnableCommandBufferRecycling: 1
   loadStoreDebugModeEnabled: 0
   bundleVersion: 1.0
-  preloadedAssets: []
+  preloadedAssets:
+  - {fileID: 11400000, guid: 1eb95d77acb39444e8cf44313496a874, type: 2}
+  - {fileID: -906990648198499217, guid: 58f40b12bbc864f3c96c6505a9a1e1e3, type: 2}
+  - {fileID: 11400000, guid: 2aa7b069b183949cc869bb9b17c93d10, type: 2}
+  - {fileID: 3225899883289399016, guid: b795a7362809640ddb72ac3611e31cce, type: 2}
+  - {fileID: 11400000, guid: 49b08e4c8b2f84d16b3b750a5f42cdb2, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -159,6 +164,7 @@ PlayerSettings:
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
     Standalone: com.DefaultCompany.Cloud-Anchor-Test
+    iPhone: com.DefaultCompany.Cloud-Anchor-Test
   buildNumber:
     Standalone: 0
     VisionOS: 0
@@ -751,7 +757,7 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    iPhone: UNITY_XR_ARKIT_LOADER_ENABLED
+    iPhone: UNITY_XR_ARKIT_LOADER_ENABLED;ARCORE_EXTENSIONS_IOS_SUPPORT;CLOUDANCHOR_IOS_SUPPORT;ARCORE_USE_ARF_5
   additionalCompilerArguments: {}
   platformArchitecture: {}
   scriptingBackend: {}

@@ -4,6 +4,13 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Samples/ARCore Extensions/1.41.0/Persistent Cloud Anchor Sample/Scenes/PersistentCloudAnchorsArf4.unity
+    guid: a1cbde3cab63248f4bbf8d8ad6586754
   m_configObjects:
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 89a6d18d3df8d3e4fa917b0f9a963bc0, type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: de8a8e4f987434338a4b1062feb8d069, type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 2aa7b069b183949cc869bb9b17c93d10, type: 2}
+    com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: 1eb95d77acb39444e8cf44313496a874, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: b795a7362809640ddb72ac3611e31cce, type: 2}
