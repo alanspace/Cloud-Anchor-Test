@@ -51,9 +51,9 @@ namespace Google.XR.ARCoreExtensions.Samples.PersistentCloudAnchors
         public XROrigin Origin;
 #else // use ARF 4
         /// <summary>
-        /// The active XROrigin used in the example.
+        /// The active ARSessionOrigin used in the example.
         /// </summary>
-        public XROrigin SessionOrigin;
+        public ARSessionOrigin SessionOrigin;
 #endif
 
         /// <summary>
