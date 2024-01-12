@@ -338,26 +338,14 @@ namespace Google.XR.ARCoreExtensions.Samples.PersistentCloudAnchors
         }
 
         private void SetPlatformActive(bool active)
-{
+        {
 #if ARCORE_USE_ARF_5 // use ARF 5
-    if (Origin != null)
-    {
-        Origin.gameObject.SetActive(active);
-    }
+            Origin.gameObject.SetActive(active);
 #else // use ARF 4
-    if (SessionOrigin != null)
-    {
-        SessionOrigin.gameObject.SetActive(active);
-    }
+            SessionOrigin.gameObject.SetActive(active);
 #endif
-    if (SessionCore != null)
-    {
-        SessionCore.gameObject.SetActive(active);
-    }
-    if (Extensions != null)
-    {
-        Extensions.gameObject.SetActive(active);
-    }
-    }
+            SessionCore.gameObject.SetActive(active);
+            Extensions.gameObject.SetActive(active);
+        }
     }
 }
