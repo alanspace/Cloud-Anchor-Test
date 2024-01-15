@@ -17,9 +17,9 @@ https://developers.google.com/ar/develop/unity-arf/getting-started-extensions
 ### Part of the Problems Solved
 Basically, there is still error in the unity console. But I just bypass it and keep building the xcode file. In that build folder, I input the following code into the terminal 
 
-´´´
+```
 pod install
-´´´
+```
 
 to install several files related to pod or podfile that establishs a workstation, and build the app there. 
 
