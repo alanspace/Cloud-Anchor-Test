@@ -14,6 +14,18 @@ https://developers.google.com/ar/develop/unity-arf/getting-started-extensions
 - https://github.com/google-ar/arcore-unity-extensions/issues/170
 - https://forum.unity.com/threads/ar-core-extensions-problems-unsolved.1536013/
 
+### Part of the Problems Solved
+Basically, there is still error in the unity console. But I just bypass it and keep building the xcode file. In that build folder, I input the following code into the terminal 
+
+´´´
+pod install
+´´´
+
+to install several files related to pod or podfile that establishs a workstation, and build the app there. 
+
+- https://www.youtube.com/watch?v=53clVt91ynk
+
+
 ### Possible Solutions
 - https://learn.microsoft.com/en-us/dotnet/api/system.entrypointnotfoundexception?view=net-5.0
 - https://github.com/google-ar/arcore-unity-extensions/issues/120
